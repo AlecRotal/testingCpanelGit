@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/ctesti51/test_html/
+    - /bin/cp test.txt $DEPLOYPATH
